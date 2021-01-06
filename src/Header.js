@@ -18,7 +18,7 @@ function Header() {
                     <span className="menu">Menu</span>
                 </div>
                 <div className="header_profile">
-                    <span className="profile">My Profile</span>
+                    <span className="profile">My ID</span>
                 </div>
             </div>    
             </div>
