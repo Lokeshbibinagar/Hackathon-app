@@ -1,44 +1,60 @@
 .cards{
-   
-    margin-top: 10%; 
-    background-color:wheat;
-    width: 95%;
-    height: 300px;
-    margin-bottom: 5%;
     
-    
-}
-.card_image{
-    width: 20%;
-    height: 40%;
-    position: absolute;
-    left: 70%;
-    right: 20%;
-    transform: translateX(-40%);
-    transform: translateY(-55%); 
-    
-}
-.card_heading{
-    color: rgb(54, 68, 30);
-    padding-left: 5%;
-    font-family: serif;
-    transform: translateY(50%);
-    font-size: 300%;
-   
-}
-.card_para{
-    padding-left: 5%;
-    width: 50%;
-    transform: translateY(50%);
-    font-family: serif;
-    font-size: 140%;
-  
-}
-.card2{
-    
-    background-color: #bcf7ff; 
-    width: 95%;
-    height: 300px;
-    margin-bottom: 5%
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 20px;
+    background-color:blanchedalmond;
+    z-index: -1;
 }
 
+.cards_cyan{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 20px;
+    background-color: #bcf7ff; 
+    z-index: -1;
+}
+.cards_khaki{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 20px;
+    background-color:rgb(226, 220, 135); 
+    z-index: -1;
+}
+.cards_choco{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(184, 125, 83);
+    z-index: -1;
+}
+.card_image{
+    max-width: 400px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.card_heading{
+    font-family: serif;
+    color: rgb(58, 78, 16);
+    font-size: 200%;
+    text-align: center;
+
+}
+.card_para{
+    font-family: 'Century Gothic';
+    font-size: 100%;
+    text-align: center;
+}
