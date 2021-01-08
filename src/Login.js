@@ -15,7 +15,7 @@ function Login() {
                 <input className="password" type="password" placeholder="Password"></input>
                 <button className="signInBtn" >Sign In</button>
                 <p className="signIn_para"> Do not have an account?</p>
-                <Link to="/">
+                <Link to="/register">
                 <p className="signIn_signUp">Sign Up</p> 
                 </Link>
                 </div>

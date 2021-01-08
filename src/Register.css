@@ -1,0 +1,104 @@
+.register{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -2;
+}
+
+.register_image{
+    top: 10%;
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.register_signIn{
+    top: 20%;
+    left: 17%;
+    transform: translate(-30%,-30%);
+    font-family: serif;
+    font-style: italic;
+    color: chocolate;
+    position: absolute;
+
+}
+.register_username{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-8%,-10%);
+    background-color: transparent;
+    color: white;
+    height: 12px;
+    padding: 10px;
+    width: 20%;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: chocolate;
+}
+.register_password{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-8%,-10%);
+    background-color: transparent;
+    color: white;
+    height: 12px;
+    padding: 10px;
+    width: 20%;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: chocolate;
+}
+.register_signUpBtn{
+    top: 60%;
+    left: 9%;
+    width: 20%;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid chocolate;
+    border-radius: 10px;
+    position: absolute;
+    border-width: 1px solid;
+}
+
+.register_signUpBtn:hover{
+    color: #ffffff;
+    background-color: chocolate;
+    border: 1px solid #ffffff;
+    transition: 0.6s ease ;
+}
+
+.register_signUp_para{
+    top: 70%;
+    left: 12%;
+ font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+}
+.signUp_signIn{
+    color: #ffffff;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    font-size: 14px;
+}
+.re-register_password{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-8%,-10%);
+    background-color: transparent;
+    color: white;
+    height: 12px;
+    padding: 10px;
+    width: 20%;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: chocolate;
+}
