@@ -41,7 +41,7 @@
     z-index: -1;
 }
 .card_image{
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
