@@ -19,7 +19,7 @@
 .login_signIn{
     
     top: 30%;
-    left: 15%;
+    left: 17%;
     transform: translate(-30%,-30%);
     font-family: serif;
     font-style: italic;
@@ -73,5 +73,19 @@
     background-color: chocolate;
     border: 1px solid #ffffff;
     transition: 0.6s ease ;
+}
 
+.signIn_para{
+    top: 70%;
+    left: 12%;
+ font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+}
+.signIn_signUp{
+    color: #ffffff;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    font-size: 14px;
 }
