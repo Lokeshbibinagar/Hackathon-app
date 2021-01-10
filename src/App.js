@@ -12,13 +12,12 @@ function App() {
     <Router>
     <div className="App">
       <Switch>
-
         <Route path="/login">
           <Header />
           <Login />
         </Route>
         <Route path="/register">
-          <Header />
+        <Header />
           <Register />
         </Route>
 
