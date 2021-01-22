@@ -1,0 +1,72 @@
+.backgroundImg{
+    object-fit: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.fullname{
+    width: 25%;
+    position:absolute;
+    background-color:transparent;
+    padding: 5px;
+    z-index: 6;
+    border-radius: 5px;
+    top: 20%;
+   border-color: rgb(71, 49, 37);
+    margin-left: 35%;
+    transform: translate(0%,50%);  
+    color: rgb(71, 49, 37); 
+}
+.orgname{
+    width: 25%;
+    position:absolute;
+    background-color:transparent;
+    padding: 5px;
+    z-index: 6;
+    border-radius: 5px;
+    top: 25%;
+   border-color: rgb(71, 49, 37);
+    margin-left: 35%;
+    transform: translate(0%,50%);  
+    color: rgb(71, 49, 37); 
+
+}
+.empid{
+    width: 25%;
+    position:absolute;
+    background-color:transparent;
+    padding: 5px;
+    z-index: 6;
+    border-radius: 5px;
+    top: 30%;
+   border-color: rgb(71, 49, 37);
+    margin-left: 35%;
+    transform: translate(0%,50%);  
+    color: rgb(71, 49, 37); 
+}
+.mobile{
+    width: 25%;
+    position:absolute;
+    background-color:transparent;
+    padding: 5px;
+    z-index: 6;
+    border-radius: 5px;
+    top: 35%;
+   border-color: rgb(71, 49, 37);
+    margin-left: 35%;
+    transform: translate(0%,50%);  
+    color: rgb(71, 49, 37); 
+}
+.email{
+    width: 25%;
+    position:absolute;
+    background-color:transparent;
+    padding: 5px;
+    z-index: 6;
+    border-radius: 5px;
+    top: 40%;
+   border-color: rgb(71, 49, 37);
+    margin-left: 35%;
+    transform: translate(0%,50%);  
+    color: rgb(71, 49, 37); 
+}

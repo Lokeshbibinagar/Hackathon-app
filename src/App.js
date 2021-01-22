@@ -3,7 +3,8 @@ import Header from './Header';
 import Middle from './Middle';
 import Home from './Home';
 import Login from './Login';
-import Register from './Register'
+import Register from './Register';
+import UserDetails from './UserDetails';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
         <Route path="/login">
           <Header />
           <Login />
+        </Route>
+        <Route path="/user">
+          <Header />
+          <UserDetails />
         </Route>
         <Route path="/register">
         <Header />
