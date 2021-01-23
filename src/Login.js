@@ -16,6 +16,8 @@ function Login() {
         auth.signInWithEmailAndPassword(login_email,login_password).then(auth => {
             login_history.push('/');
         }).catch( error => alert(error.message))
+
+        
     }
 
     return (
@@ -25,7 +27,7 @@ function Login() {
             <img className="login_image" src="https://www.pixelstalk.net/wp-content/uploads/images1/Cafe-Wallpapers-HD-Free-download.jpg"></img>
             </div>
             <div className="signIn">
-                <h1 className="login_signIn">Sign In</h1>
+                <h1 className="login_signIn" id="signIn">Sign In</h1>
                 <input className ="username" type="email" placeholder="Username" value={login_email} onChange={e => setLoginEmail(e.target.value)}></input>
                 <input className="password" type="password" placeholder="Password" value={login_password} onChange={ e => setLoginPassword(e.target.value)}></input>
                 <button className="signInBtn" onClick={signIn} >Sign In</button>

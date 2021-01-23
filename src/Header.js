@@ -4,6 +4,7 @@ import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import { Link } from 'react-router-dom'
 
 function Header() {
+
     return (
         <div>
             <div className="header">
@@ -14,7 +15,7 @@ function Header() {
                 <div className="header_right">
                     <Link to="/login">
                 <div className="header_signIn">
-                    <span className="signIn">Sign In</span>
+                    <span className="signIn" id="signInHeader">Sign In</span>
                 </div>
                 </Link>
                 <div className="header_menu">
